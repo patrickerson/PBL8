@@ -4,16 +4,14 @@ author: "Patrickerson"
 output: html_document
 ---
 
+
+Multiplication of two matrices.
+
 $$
-\documentclass{article}
-\usepackage{amsmath} 
-\usepackage{relsize} 
-\begin{document}
-\[
 \begin{bmatrix}
     x_{11}       & x_{12} & x_{13} & \dots & x_{1n} \\
     x_{21}       & x_{22} & x_{23} & \dots & x_{2n} \\
-    \hdotsfor{5} \\
+    \vdots & \vdots & \vdots & \ddots & \vdots \\
     x_{d1}       & x_{d2} & x_{d3} & \dots & x_{dn}
 \end{bmatrix}
 *
@@ -23,12 +21,12 @@ $$
     \vdots & \vdots & \vdots & \ddots & \vdots \\
     y_{d1} & y_{d2} & y_{d3} & \dots  & y_{dn}
 \end{bmatrix}
-\]
 $$
+
+
 $$
 \begin{equation}
-\mathlarger { C_{row,col} = \sum^{d}_{n=0} X_{row,n} * Y_{n,col}}
+{ C_{row,col} = \sum^{d}_{n=0} X_{row,n} * Y_{n,col}}
 \mid d = Y_{\forall,col} = X_{row,\forall}
 \end{equation}{}
-\end{document}
 $$
